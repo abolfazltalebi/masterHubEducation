@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      "fontFamily": {
+        "general-sans": "General Sans",
+        "manrope": "Manrope"
+       },
+       "boxShadow": {
+        "Drop Shadow": "10px 25px 100px 0px rgba(0,43,107,0.25)"
+       },
+    },
   },
   plugins: [],
 }
