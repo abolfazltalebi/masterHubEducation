@@ -4,7 +4,7 @@ import HeaderMenu from "./HeaderMenu";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-around gap-8 py-6 text-white bg-[#391DE8] ">
+    <header className="flex items-center justify-around gap-8 py-4 text-white bg-[#381de8c9] ">
       <HeaderLogo />
       <HeaderMenu />
       <HeaderButton />

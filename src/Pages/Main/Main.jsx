@@ -1,6 +1,9 @@
+import HeroSection from "../../components/HeroSection/HeroSection";
 
 export default function Main() {
   return (
-    <div>Main</div>
-  )
+    <main>
+      <HeroSection />
+    </main>
+  );
 }
